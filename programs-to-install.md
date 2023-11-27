@@ -16,4 +16,5 @@
 - ASDF
     - PHP
     - NodeJS
+- Kdenlive
 
