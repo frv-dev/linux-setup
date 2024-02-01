@@ -34,8 +34,12 @@ sudo chmod 700 ~/.ssh \
 
 Install fish.
 
-Move `./configs/fish/conf.d` to `~/.config/fish/conf.d`.
+Copy `./configs/fish/conf.d` to `~/.config/fish/conf.d`.
+
+Copy `./configs/fish/config.fish` to `~/.config/fish/config.fish`.
+
+Execute the command `mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions`.
 
 ## Configure TMUX
 
-Mova o arquivo `.configs/tmux/.tmux.conf` para `~/.tmux.conf`.
+Copy the file `.configs/tmux/.tmux.conf` to `~/.tmux.conf`.
