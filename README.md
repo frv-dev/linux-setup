@@ -10,19 +10,28 @@ sudo chmod 700 ~/.ssh \
 && sudo chmod 644 ~/.ssh/*.pub
 ```
 
+## Essential to install
+
+- sxhkd
+- dunst
+- picom
+- pywal
+- feh
+- Vim
+- Neovim
+- Fish
+- polybar
+
 ## Programs to install
 
 - VSCode
 - Google Chrome
 - Docker
 - OBS
-- Vim
-- Neovim
 - Git
 - Neofetch
 - Insomnia
 - Dbeaver
-- Fish
 - fzf
 - ASDF
     - PHP
@@ -34,11 +43,13 @@ sudo chmod 700 ~/.ssh \
 
 Install fish.
 
-Copy `./configs/fish/conf.d` to `~/.config/fish/conf.d`.
+Copy `~/.config/fish/conf.d` to `~/.config/fish/conf.d`.
 
-Copy `./configs/fish/config.fish` to `~/.config/fish/config.fish`.
+Copy `~/.config/fish/config.fish` to `~/.config/fish/config.fish`.
 
-Execute the command `mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions`.
+Execute the command `mkdir -p ~/.config/fish/completions;` and `ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions`.
+
+On the `~/.config/fish/conf.d/pywal.fish` set the image file for extract terminal colors.
 
 ## Configure TMUX
 
