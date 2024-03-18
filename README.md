@@ -19,8 +19,10 @@ sudo chmod 700 ~/.ssh \
 - feh
 - Vim
 - Neovim
+- Astronvim
 - Fish
 - polybar
+- rofi
 
 ## Programs to install
 
