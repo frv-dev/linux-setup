@@ -24,6 +24,11 @@ sudo chmod 700 ~/.ssh \
 - polybar
 - rofi
 
+## Default application for common uses
+
+- Image viewer: feh
+- Video player: vlc
+
 ## Programs to install
 
 - VSCode
